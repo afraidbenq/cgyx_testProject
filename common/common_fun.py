@@ -156,16 +156,6 @@ class Common(BaseView):
         newImage.save(image_file)
         return self
 
-    def check_market_ad(self):
-        logging.info('====check_market_ad====')
-        try:
-            element = self.driver.find_element(*self.wemedia_cacel)
-        except NoSuchElementException:
-            pass
-        else:
-            logging.info('close market ad')
-            element.click()
-
     def get_csv_data(self, csv_file, line):
         logging.info('=====get_csv_data======')
         with open(csv_file, 'r', encoding='utf-8-sig') as file:

@@ -737,3 +737,38 @@
 2020-05-12 15:28:14,701 common_fun.py[line:25] INFO ======= check verify btn =======
 2020-05-12 15:28:19,509 loginView.py[line:59] INFO ===========logined in========== !
 2020-05-12 15:28:27,348 myunit.py[line:56] INFO ====tearDown====
+2020-05-12 16:05:01,482 myunit.py[line:48] INFO =====setUp====
+2020-05-12 16:05:01,485 desired_caps.py[line:32] INFO start app...
+2020-05-12 16:05:15,995 test_login_shopping.py[line:85] INFO 开始测试密码登录购物车页面结算下单
+2020-05-12 16:05:18,696 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 16:05:20,078 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 16:05:31,936 common_fun.py[line:25] INFO ======= check verify btn =======
+2020-05-12 16:05:35,427 common_fun.py[line:30] INFO no verify btn
+2020-05-12 16:05:35,461 loginView.py[line:71] INFO mmlogin !
+2020-05-12 16:05:45,930 common_fun.py[line:25] INFO ======= check verify btn =======
+2020-05-12 16:05:49,835 loginView.py[line:59] INFO ===========logined in========== !
+2020-05-12 16:05:51,173 cartView.py[line:32] INFO 购物车为空！
+2020-05-12 16:05:59,825 myunit.py[line:56] INFO ====tearDown====
+2020-05-12 16:06:00,030 myunit.py[line:48] INFO =====setUp====
+2020-05-12 16:06:00,032 desired_caps.py[line:32] INFO start app...
+2020-05-12 16:06:11,974 test_login_shopping.py[line:55] INFO 开始测试密码登录严选专区页面下单
+2020-05-12 16:06:14,746 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 16:06:16,128 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 16:06:27,848 common_fun.py[line:25] INFO ======= check verify btn =======
+2020-05-12 16:06:30,867 common_fun.py[line:30] INFO no verify btn
+2020-05-12 16:06:30,907 loginView.py[line:71] INFO mmlogin !
+2020-05-12 16:06:45,317 myunit.py[line:56] INFO ====tearDown====
+2020-05-12 16:21:57,432 desired_caps.py[line:32] INFO start app...
+2020-05-12 16:25:48,354 desired_caps.py[line:32] INFO start app...
+2020-05-12 16:26:02,608 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 16:26:04,029 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 16:39:48,617 desired_caps.py[line:32] INFO start app...
+2020-05-12 16:40:02,574 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 16:40:04,024 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 16:40:05,887 loginView.py[line:71] INFO mmlogin !
+2020-05-12 16:40:24,281 desired_caps.py[line:32] INFO start app...
+2020-05-12 16:40:38,156 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 16:40:39,580 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 16:40:51,250 common_fun.py[line:25] INFO ======= check verify btn =======
+2020-05-12 16:40:54,751 common_fun.py[line:30] INFO no verify btn
+2020-05-12 16:40:54,789 loginView.py[line:71] INFO mmlogin !

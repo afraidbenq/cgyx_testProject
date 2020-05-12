@@ -4,7 +4,7 @@ from common.desired_caps import appium_desired
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-#from interface.testAPI import Order
+from interface.YApi17 import *
 from time import sleep
 
 
@@ -15,7 +15,7 @@ class MyView(LoginView):
         By.XPATH, "//android.widget.TextView[@resource-id='com.xiniao.cgmarket:id/tv_tab_title' and @text='待付款']")
     payBtn = (By.XPATH, "//android.widget.TextView[@resource-id='com.xiniao.cgmarket:id/tv_pay' and @text='付款']")
     cancelBtn = (
-    By.XPATH, "//android.widget.TextView[@resource-id='com.xiniao.cgmarket:id/tv_cancel' and @text='取消订单']")
+        By.XPATH, "//android.widget.TextView[@resource-id='com.xiniao.cgmarket:id/tv_cancel' and @text='取消订单']")
     qdcancel = (By.XPATH, "//android.widget.TextView[@resource-id='com.xiniao.cgmarket:id/tv_enter' and @text='确定']")
     paynowBtn = (By.ID, "com.xiniao.cgmarket:id/tv_pay")
     paytypesel = (By.ID, "com.xiniao.cgmarket:id/iv_cb_wx")
@@ -76,17 +76,17 @@ class MyView(LoginView):
 
 
 if __name__ == '__main__':
-    token = '13823417742.1584512059.66270.c359415be2251f0b63e99015a2dfce51'  # 测试服
-    # token= '13823417742.1584515620.93581.327f32e4c8d6a228ccba303b6d268aa1' #预发布
-    # token = '13823417742.1584518448.82312.6886bd0e411f46c636a0c510f2fd699f'  # 灰度
-
     driver = appium_desired()
     m = MyView(driver)
+    m.enterindex()
+    m.check_logined()
+    m.mmlogin_action(13823417742, 'a12345678')
     e = m.order_list()
     if e:
-        r = Order.orderList(token, 1)
+        token = SignIn.index_login(13823417742, 99999999, 'a12345678', 1)
+        r = Order.order_orderlist(token, 1)
         orderlist = r['data']['data']
         print(len(orderlist))
         for i in range(len(orderlist)):
             print(orderlist[i]['order_sn'])
-        m.pay_action(orderlist)
+        # m.pay_action(orderlist)
