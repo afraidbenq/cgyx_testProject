@@ -1,0 +1,581 @@
+2020-03-25 15:33:39,773 desired_caps.py[line:34] INFO start app...
+2020-03-25 15:34:00,819 indexView.py[line:31] WARNING 没搜到任何商品
+2020-03-25 15:58:07,939 desired_caps.py[line:34] INFO start app...
+2020-03-25 15:58:28,592 indexView.py[line:33] INFO 搜到6件商品
+2020-03-25 15:58:53,271 desired_caps.py[line:34] INFO start app...
+2020-03-25 15:59:16,342 indexView.py[line:33] INFO 搜到2件商品
+2020-03-25 16:09:38,673 desired_caps.py[line:34] INFO start app...
+2020-03-25 16:10:25,980 desired_caps.py[line:34] INFO start app...
+2020-03-25 16:11:04,611 desired_caps.py[line:34] INFO start app...
+2020-03-25 16:11:35,111 indexView.py[line:34] INFO 搜到6件商品
+2020-03-25 16:13:17,328 desired_caps.py[line:34] INFO start app...
+2020-03-25 16:13:49,688 indexView.py[line:34] INFO 搜到6件商品
+2020-03-25 16:16:19,052 desired_caps.py[line:34] INFO start app...
+2020-03-25 16:17:00,568 indexView.py[line:37] WARNING 没搜到任何商品
+2020-03-25 16:17:22,934 desired_caps.py[line:34] INFO start app...
+2020-03-25 16:17:46,476 indexView.py[line:34] INFO 搜到6件商品
+2020-03-25 16:25:01,181 desired_caps.py[line:34] INFO start app...
+2020-03-25 16:25:23,735 indexView.py[line:34] INFO 搜到6件商品
+2020-03-25 16:48:27,881 desired_caps.py[line:34] INFO start app...
+2020-03-25 16:49:21,599 desired_caps.py[line:34] INFO start app...
+2020-03-25 16:50:14,561 desired_caps.py[line:34] INFO start app...
+2020-03-25 16:51:25,651 desired_caps.py[line:34] INFO start app...
+2020-03-25 16:53:03,434 desired_caps.py[line:34] INFO start app...
+2020-03-25 16:53:24,020 cartView.py[line:22] INFO 购物车有3件商品
+2020-03-25 17:07:41,312 desired_caps.py[line:34] INFO start app...
+2020-03-25 17:08:02,526 cartView.py[line:26] INFO 购物车有2件商品
+2020-03-25 17:24:23,991 desired_caps.py[line:34] INFO start app...
+2020-03-25 17:24:44,742 cartView.py[line:29] INFO 购物车有1件商品
+2020-03-25 17:25:32,710 desired_caps.py[line:34] INFO start app...
+2020-03-25 17:26:06,045 desired_caps.py[line:34] INFO start app...
+2020-03-25 17:28:39,353 desired_caps.py[line:34] INFO start app...
+2020-03-25 17:29:04,032 cartView.py[line:29] INFO 购物车有0件商品
+2020-03-25 17:29:29,613 desired_caps.py[line:34] INFO start app...
+2020-03-25 17:29:56,100 cartView.py[line:29] INFO 购物车有0件商品
+2020-03-25 18:06:00,197 desired_caps.py[line:34] INFO start app...
+2020-03-25 18:06:35,596 desired_caps.py[line:34] INFO start app...
+2020-03-25 18:12:33,586 desired_caps.py[line:34] INFO start app...
+2020-03-25 18:13:58,279 desired_caps.py[line:34] INFO start app...
+2020-03-25 18:20:04,912 desired_caps.py[line:34] INFO start app...
+2020-03-25 18:20:23,982 cartView.py[line:32] INFO 购物车为空！
+2020-03-25 18:29:34,833 desired_caps.py[line:34] INFO start app...
+2020-03-25 18:29:57,037 cartView.py[line:29] INFO 购物车有1件商品
+2020-03-25 18:51:01,551 desired_caps.py[line:34] INFO start app...
+2020-03-25 18:51:36,862 desired_caps.py[line:34] INFO start app...
+2020-03-25 18:54:48,728 desired_caps.py[line:34] INFO start app...
+2020-03-25 18:57:45,957 desired_caps.py[line:34] INFO start app...
+2020-03-25 19:02:09,013 desired_caps.py[line:34] INFO start app...
+2020-03-25 19:04:44,764 desired_caps.py[line:34] INFO start app...
+2020-03-25 19:40:20,943 desired_caps.py[line:34] INFO start app...
+2020-03-25 19:40:38,881 desired_caps.py[line:34] INFO start app...
+2020-03-25 19:41:02,941 indexView.py[line:38] INFO 搜到6件商品
+2020-03-25 19:44:07,059 desired_caps.py[line:34] INFO start app...
+2020-03-25 19:44:29,865 indexView.py[line:38] INFO 搜到6件商品
+2020-03-25 19:45:15,140 desired_caps.py[line:34] INFO start app...
+2020-03-25 19:45:46,783 desired_caps.py[line:34] INFO start app...
+2020-03-25 19:46:09,570 indexView.py[line:38] INFO 搜到6件商品
+2020-03-25 19:47:11,136 desired_caps.py[line:34] INFO start app...
+2020-03-25 19:47:33,848 indexView.py[line:38] INFO 搜到6件商品
+2020-03-25 20:15:45,591 desired_caps.py[line:34] INFO start app...
+2020-03-25 20:16:08,263 indexView.py[line:39] INFO 搜到6件商品
+2020-03-25 20:19:43,251 desired_caps.py[line:34] INFO start app...
+2020-03-25 20:20:05,819 indexView.py[line:40] INFO 搜到6件商品
+2020-03-25 20:31:47,854 desired_caps.py[line:34] INFO start app...
+2020-03-25 20:32:10,832 indexView.py[line:43] INFO 搜到6件商品
+2020-03-25 20:38:30,061 desired_caps.py[line:34] INFO start app...
+2020-03-25 20:38:51,227 cartView.py[line:29] INFO 购物车有3件商品
+2020-03-25 20:39:21,148 desired_caps.py[line:34] INFO start app...
+2020-03-25 20:39:45,834 desired_caps.py[line:34] INFO start app...
+2020-03-25 20:40:03,220 desired_caps.py[line:34] INFO start app...
+2020-03-25 20:40:26,246 indexView.py[line:43] INFO 搜到6件商品
+2020-03-25 20:41:38,568 desired_caps.py[line:34] INFO start app...
+2020-03-25 20:42:02,647 indexView.py[line:43] INFO 搜到6件商品
+2020-03-25 20:52:13,833 desired_caps.py[line:34] INFO start app...
+2020-03-25 20:53:57,298 desired_caps.py[line:34] INFO start app...
+2020-03-25 20:54:21,091 indexView.py[line:43] INFO 搜到6件商品
+2020-03-25 20:54:33,893 desired_caps.py[line:34] INFO start app...
+2020-03-25 20:54:57,397 indexView.py[line:43] INFO 搜到6件商品
+2020-03-25 20:57:21,003 desired_caps.py[line:34] INFO start app...
+2020-03-25 20:57:44,402 indexView.py[line:43] INFO 搜到6件商品
+2020-03-25 20:58:25,552 desired_caps.py[line:34] INFO start app...
+2020-03-25 20:59:30,712 desired_caps.py[line:34] INFO start app...
+2020-03-25 21:09:47,951 desired_caps.py[line:34] INFO start app...
+2020-03-25 21:10:49,214 desired_caps.py[line:34] INFO start app...
+2020-03-25 21:33:05,515 desired_caps.py[line:34] INFO start app...
+2020-03-26 09:44:16,860 desired_caps.py[line:34] INFO start app...
+2020-03-26 09:44:47,871 desired_caps.py[line:34] INFO start app...
+2020-03-26 09:56:15,688 desired_caps.py[line:34] INFO start app...
+2020-03-26 09:56:29,770 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 09:56:31,190 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 09:56:32,610 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 09:56:56,497 loginView.py[line:44] INFO ===========logined in========== !
+2020-03-26 10:14:25,348 desired_caps.py[line:34] INFO start app...
+2020-03-26 10:14:39,196 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 10:14:40,661 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 10:17:01,365 desired_caps.py[line:34] INFO start app...
+2020-03-26 10:17:14,994 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 10:17:16,405 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 10:19:33,019 desired_caps.py[line:34] INFO start app...
+2020-03-26 10:19:46,531 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 10:19:47,953 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 10:20:12,571 loginView.py[line:48] INFO ===========logined in========== !
+2020-03-26 10:21:57,549 desired_caps.py[line:34] INFO start app...
+2020-03-26 10:22:11,189 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 10:22:12,599 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 10:22:38,837 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 10:50:50,115 myunit.py[line:36] INFO =====setUp====
+2020-03-26 10:50:50,117 desired_caps.py[line:34] INFO start app...
+2020-03-26 10:51:00,760 test_login_shopping.py[line:22] INFO 开始测试密码登录主页搜索下单
+2020-03-26 10:51:03,557 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 10:51:05,001 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 10:51:29,273 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 10:51:46,871 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 10:58:50,932 myunit.py[line:36] INFO =====setUp====
+2020-03-26 10:58:50,934 desired_caps.py[line:34] INFO start app...
+2020-03-26 10:59:00,849 test_login_shopping.py[line:22] INFO 开始测试密码登录主页搜索下单
+2020-03-26 10:59:03,592 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 10:59:04,995 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 10:59:30,307 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 10:59:48,464 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 11:05:12,486 myunit.py[line:36] INFO =====setUp====
+2020-03-26 11:05:12,488 desired_caps.py[line:34] INFO start app...
+2020-03-26 11:05:22,329 test_login_shopping.py[line:22] INFO 开始测试密码登录主页搜索下单
+2020-03-26 11:05:25,110 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 11:05:26,602 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 11:05:50,581 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 11:05:51,296 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 11:07:54,594 myunit.py[line:36] INFO =====setUp====
+2020-03-26 11:07:54,596 desired_caps.py[line:34] INFO start app...
+2020-03-26 11:08:04,342 test_login_shopping.py[line:22] INFO 开始测试密码登录主页搜索下单
+2020-03-26 11:08:07,085 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 11:08:08,457 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 11:08:20,422 loginView.py[line:55] INFO mmlogin !
+2020-03-26 11:08:32,448 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 11:08:40,221 indexView.py[line:48] INFO 搜到6件商品
+2020-03-26 11:08:59,626 test_login_shopping.py[line:37] INFO goodname:【热销】OOU 黑尚厨房刀具套装 菜刀+万用刀+磨刀器三件套TCOOU11054
+2020-03-26 11:09:10,322 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 11:21:11,975 myunit.py[line:36] INFO =====setUp====
+2020-03-26 11:21:11,978 desired_caps.py[line:34] INFO start app...
+2020-03-26 11:21:21,647 test_login_shopping.py[line:22] INFO 开始测试密码登录主页搜索下单
+2020-03-26 11:21:24,426 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 11:21:25,863 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 11:21:35,637 loginView.py[line:55] INFO mmlogin !
+2020-03-26 11:21:49,764 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 11:21:58,480 indexView.py[line:48] INFO 搜到6件商品
+2020-03-26 11:22:17,156 test_login_shopping.py[line:37] INFO goodname:【热销】OOU 黑尚厨房刀具套装 菜刀+万用刀+磨刀器三件套TCOOU11054
+2020-03-26 11:22:21,876 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 11:27:47,956 myunit.py[line:36] INFO =====setUp====
+2020-03-26 11:27:47,958 desired_caps.py[line:34] INFO start app...
+2020-03-26 11:27:57,621 test_login_shopping.py[line:23] INFO 开始测试密码登录主页搜索下单
+2020-03-26 11:28:00,369 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 11:28:01,810 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 11:28:13,826 loginView.py[line:55] INFO mmlogin !
+2020-03-26 11:28:26,823 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 11:28:35,715 indexView.py[line:48] INFO 搜到6件商品
+2020-03-26 11:28:54,669 test_login_shopping.py[line:38] INFO goodname:【热销】OOU 黑尚厨房刀具套装 菜刀+万用刀+磨刀器三件套TCOOU11054
+2020-03-26 11:29:00,368 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 11:29:00,583 myunit.py[line:36] INFO =====setUp====
+2020-03-26 11:29:00,587 desired_caps.py[line:34] INFO start app...
+2020-03-26 11:29:11,290 test_login_shopping.py[line:48] INFO 开始测试快捷登录分类页面下单
+2020-03-26 11:29:14,075 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 11:29:15,528 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 11:29:27,421 loginView.py[line:71] INFO quicklogin !
+2020-03-26 11:29:42,900 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 11:29:58,097 test_login_shopping.py[line:59] INFO goodname:【热销】玛奇诺 纯植物洗出彩染发膏 泡泡染色洗发露400ml/瓶
+2020-03-26 11:30:00,693 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 11:32:24,274 myunit.py[line:36] INFO =====setUp====
+2020-03-26 11:32:24,276 desired_caps.py[line:34] INFO start app...
+2020-03-26 11:32:34,124 test_login_shopping.py[line:48] INFO 开始测试快捷登录分类页面下单
+2020-03-26 11:32:36,819 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 11:32:38,274 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 11:32:47,880 loginView.py[line:71] INFO quicklogin !
+2020-03-26 11:33:02,608 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 11:33:18,392 test_login_shopping.py[line:59] INFO goodname:【热销】玛奇诺 纯植物洗出彩染发膏 泡泡染色洗发露400ml/瓶
+2020-03-26 11:33:24,258 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 11:43:39,432 myunit.py[line:36] INFO =====setUp====
+2020-03-26 11:43:39,434 desired_caps.py[line:34] INFO start app...
+2020-03-26 11:43:49,233 test_login_shopping.py[line:73] INFO 开始测试密码登录严选专区页面下单
+2020-03-26 11:43:52,109 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 11:43:53,475 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 11:44:03,137 loginView.py[line:55] INFO mmlogin !
+2020-03-26 11:44:15,382 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 11:44:21,778 test_login_shopping.py[line:84] INFO goodname:(严选精品)希卡贝尔洗面奶+水乳霜+手霜+变色唇膏   面部手部双重护理  滋润保湿 
+2020-03-26 11:44:27,479 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 11:46:20,247 myunit.py[line:36] INFO =====setUp====
+2020-03-26 11:46:20,249 desired_caps.py[line:34] INFO start app...
+2020-03-26 11:46:30,045 test_login_shopping.py[line:96] INFO 开始测试密码登录购物车页面结算下单
+2020-03-26 11:46:32,809 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 11:46:34,195 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 11:46:44,113 loginView.py[line:55] INFO mmlogin !
+2020-03-26 11:46:57,140 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 11:47:01,185 cartView.py[line:25] INFO 购物车有2件商品
+2020-03-26 11:47:04,858 test_login_shopping.py[line:107] INFO goodname:【热销】玛奇诺 纯植物洗出彩染发膏 泡泡染色洗发露400ml/瓶
+2020-03-26 11:47:10,346 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 11:47:10,551 myunit.py[line:36] INFO =====setUp====
+2020-03-26 11:47:10,553 desired_caps.py[line:34] INFO start app...
+2020-03-26 11:47:21,246 test_login_shopping.py[line:73] INFO 开始测试密码登录严选专区页面下单
+2020-03-26 11:47:24,130 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 11:47:25,581 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 11:47:38,007 loginView.py[line:55] INFO mmlogin !
+2020-03-26 11:47:50,316 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 11:47:56,468 test_login_shopping.py[line:84] INFO goodname:(严选精品)希卡贝尔洗面奶+水乳霜+手霜+变色唇膏   面部手部双重护理  滋润保湿 
+2020-03-26 11:48:01,817 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 11:48:02,075 myunit.py[line:36] INFO =====setUp====
+2020-03-26 11:48:02,077 desired_caps.py[line:34] INFO start app...
+2020-03-26 11:48:20,234 test_login_shopping.py[line:24] INFO 开始测试密码登录主页搜索下单
+2020-03-26 11:48:23,010 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 11:48:24,414 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 11:48:32,590 loginView.py[line:55] INFO mmlogin !
+2020-03-26 11:48:47,221 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 11:48:55,421 indexView.py[line:48] INFO 搜到6件商品
+2020-03-26 11:49:02,229 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 12:08:32,531 myunit.py[line:36] INFO =====setUp====
+2020-03-26 12:08:32,533 desired_caps.py[line:34] INFO start app...
+2020-03-26 12:08:42,611 test_login_shopping.py[line:96] INFO 开始测试密码登录购物车页面结算下单
+2020-03-26 12:08:45,385 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 12:08:46,794 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 12:08:55,651 loginView.py[line:55] INFO mmlogin !
+2020-03-26 12:09:10,228 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 12:09:14,835 cartView.py[line:25] INFO 购物车有1件商品
+2020-03-26 12:09:18,399 test_login_shopping.py[line:107] INFO goodname:【热销】OOU 黑尚厨房刀具套装 菜刀+万用刀+磨刀器三件套TCOOU11054
+2020-03-26 12:09:24,237 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 12:09:24,463 myunit.py[line:36] INFO =====setUp====
+2020-03-26 12:09:24,465 desired_caps.py[line:34] INFO start app...
+2020-03-26 12:09:35,339 test_login_shopping.py[line:73] INFO 开始测试密码登录严选专区页面下单
+2020-03-26 12:09:38,090 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 12:09:39,498 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 12:09:49,743 loginView.py[line:55] INFO mmlogin !
+2020-03-26 12:10:01,683 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 12:10:08,520 test_login_shopping.py[line:84] INFO goodname:(严选精品)希卡贝尔洗面奶+水乳霜+手霜+变色唇膏   面部手部双重护理  滋润保湿 
+2020-03-26 12:10:13,699 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 12:10:13,905 myunit.py[line:36] INFO =====setUp====
+2020-03-26 12:10:13,907 desired_caps.py[line:34] INFO start app...
+2020-03-26 12:23:07,099 myunit.py[line:36] INFO =====setUp====
+2020-03-26 12:23:07,101 desired_caps.py[line:34] INFO start app...
+2020-03-26 12:23:16,846 test_login_shopping.py[line:96] INFO 开始测试密码登录购物车页面结算下单
+2020-03-26 12:23:19,605 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 12:23:21,023 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 12:23:32,839 loginView.py[line:55] INFO mmlogin !
+2020-03-26 12:23:44,300 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 12:23:46,111 cartView.py[line:28] INFO 购物车为空！
+2020-03-26 12:23:54,602 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 12:23:54,778 myunit.py[line:36] INFO =====setUp====
+2020-03-26 12:23:54,780 desired_caps.py[line:34] INFO start app...
+2020-03-26 12:24:05,479 test_login_shopping.py[line:73] INFO 开始测试密码登录严选专区页面下单
+2020-03-26 12:24:08,180 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 12:24:09,566 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 12:24:19,513 loginView.py[line:55] INFO mmlogin !
+2020-03-26 12:24:31,500 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 12:24:37,880 test_login_shopping.py[line:84] INFO goodname:(严选精品)希卡贝尔洗面奶+水乳霜+手霜+变色唇膏   面部手部双重护理  滋润保湿 
+2020-03-26 12:24:43,088 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 12:24:43,319 myunit.py[line:36] INFO =====setUp====
+2020-03-26 12:24:43,322 desired_caps.py[line:34] INFO start app...
+2020-03-26 12:24:54,114 test_login_shopping.py[line:24] INFO 开始测试密码登录主页搜索下单
+2020-03-26 12:24:55,239 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 13:00:42,487 myunit.py[line:36] INFO =====setUp====
+2020-03-26 13:00:42,489 desired_caps.py[line:34] INFO start app...
+2020-03-26 13:01:10,217 test_login_shopping.py[line:96] INFO 开始测试密码登录购物车页面结算下单
+2020-03-26 13:01:12,910 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 13:01:14,361 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 13:01:26,261 loginView.py[line:55] INFO mmlogin !
+2020-03-26 13:01:38,637 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 13:01:40,276 cartView.py[line:28] INFO 购物车为空！
+2020-03-26 13:01:48,959 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 13:01:49,177 myunit.py[line:36] INFO =====setUp====
+2020-03-26 13:01:49,179 desired_caps.py[line:34] INFO start app...
+2020-03-26 13:01:59,862 test_login_shopping.py[line:73] INFO 开始测试密码登录严选专区页面下单
+2020-03-26 13:02:02,607 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 13:02:03,974 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 13:02:17,813 loginView.py[line:55] INFO mmlogin !
+2020-03-26 13:02:29,260 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 13:02:35,721 test_login_shopping.py[line:84] INFO goodname:(严选精品)希卡贝尔洗面奶+水乳霜+手霜+变色唇膏   面部手部双重护理  滋润保湿 
+2020-03-26 13:02:41,597 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 13:02:41,816 myunit.py[line:36] INFO =====setUp====
+2020-03-26 13:02:41,818 desired_caps.py[line:34] INFO start app...
+2020-03-26 13:02:52,560 test_login_shopping.py[line:24] INFO 开始测试密码登录主页搜索下单
+2020-03-26 13:02:55,295 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 13:02:56,682 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 13:03:06,673 loginView.py[line:55] INFO mmlogin !
+2020-03-26 13:03:21,510 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 13:03:29,524 indexView.py[line:48] INFO 搜到6件商品
+2020-03-26 13:03:42,284 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 13:10:20,980 myunit.py[line:36] INFO =====setUp====
+2020-03-26 13:10:20,982 desired_caps.py[line:34] INFO start app...
+2020-03-26 13:10:31,111 test_login_shopping.py[line:96] INFO 开始测试密码登录购物车页面结算下单
+2020-03-26 13:10:33,886 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 13:10:35,320 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 13:10:47,151 loginView.py[line:55] INFO mmlogin !
+2020-03-26 13:10:59,573 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 13:11:04,110 cartView.py[line:25] INFO 购物车有1件商品
+2020-03-26 13:11:07,337 test_login_shopping.py[line:107] INFO goodname:【热销】OOU 黑尚厨房刀具套装 菜刀+万用刀+磨刀器三件套TCOOU11054
+2020-03-26 13:11:12,624 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 13:11:12,871 myunit.py[line:36] INFO =====setUp====
+2020-03-26 13:11:12,876 desired_caps.py[line:34] INFO start app...
+2020-03-26 13:11:23,493 test_login_shopping.py[line:73] INFO 开始测试密码登录严选专区页面下单
+2020-03-26 13:11:26,379 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 13:11:27,757 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 13:11:37,195 loginView.py[line:55] INFO mmlogin !
+2020-03-26 13:11:51,299 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 13:11:57,610 test_login_shopping.py[line:84] INFO goodname:(严选精品)希卡贝尔洗面奶+水乳霜+手霜+变色唇膏   面部手部双重护理  滋润保湿 
+2020-03-26 13:12:02,595 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 13:12:02,823 myunit.py[line:36] INFO =====setUp====
+2020-03-26 13:12:02,825 desired_caps.py[line:34] INFO start app...
+2020-03-26 13:20:13,790 myunit.py[line:36] INFO =====setUp====
+2020-03-26 13:20:13,792 desired_caps.py[line:34] INFO start app...
+2020-03-26 13:20:23,980 test_login_shopping.py[line:96] INFO 开始测试密码登录购物车页面结算下单
+2020-03-26 13:20:26,721 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 13:20:28,123 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 13:20:37,981 loginView.py[line:55] INFO mmlogin !
+2020-03-26 13:20:52,270 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 13:20:54,548 cartView.py[line:28] INFO 购物车为空！
+2020-03-26 13:21:03,679 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 13:21:03,866 myunit.py[line:36] INFO =====setUp====
+2020-03-26 13:21:03,868 desired_caps.py[line:34] INFO start app...
+2020-03-26 13:21:14,258 test_login_shopping.py[line:73] INFO 开始测试密码登录严选专区页面下单
+2020-03-26 13:21:17,116 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 13:21:18,533 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 13:21:30,246 loginView.py[line:55] INFO mmlogin !
+2020-03-26 13:21:42,312 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 13:21:48,769 test_login_shopping.py[line:84] INFO goodname:(严选精品)希卡贝尔洗面奶+水乳霜+手霜+变色唇膏   面部手部双重护理  滋润保湿 
+2020-03-26 13:21:53,784 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 13:21:54,033 myunit.py[line:36] INFO =====setUp====
+2020-03-26 13:21:54,039 desired_caps.py[line:34] INFO start app...
+2020-03-26 13:22:04,152 test_login_shopping.py[line:24] INFO 开始测试密码登录主页搜索下单
+2020-03-26 13:22:06,901 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 13:22:08,288 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 13:22:17,913 loginView.py[line:55] INFO mmlogin !
+2020-03-26 13:22:31,916 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 13:22:40,033 indexView.py[line:48] INFO 搜到6件商品
+2020-03-26 13:22:56,611 test_login_shopping.py[line:39] INFO goodname:【热销】OOU 黑尚厨房刀具套装 菜刀+万用刀+磨刀器三件套TCOOU11054
+2020-03-26 13:23:02,090 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 13:23:02,340 myunit.py[line:36] INFO =====setUp====
+2020-03-26 13:23:02,342 desired_caps.py[line:34] INFO start app...
+2020-03-26 13:23:12,552 test_login_shopping.py[line:50] INFO 开始测试快捷登录分类页面下单
+2020-03-26 13:23:15,286 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 13:23:16,713 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 13:23:28,496 loginView.py[line:71] INFO quicklogin !
+2020-03-26 13:23:44,158 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 13:24:00,188 test_login_shopping.py[line:61] INFO goodname:【热销】玛奇诺 纯植物洗出彩染发膏 泡泡染色洗发露400ml/瓶
+2020-03-26 13:24:05,818 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 13:50:41,388 myunit.py[line:36] INFO =====setUp====
+2020-03-26 13:50:41,390 desired_caps.py[line:34] INFO start app...
+2020-03-26 13:51:30,164 test_login_shopping.py[line:96] INFO 开始测试密码登录购物车页面结算下单
+2020-03-26 13:51:33,035 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 13:51:34,423 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 13:51:43,810 loginView.py[line:55] INFO mmlogin !
+2020-03-26 13:51:58,880 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 13:52:03,768 cartView.py[line:25] INFO 购物车有2件商品
+2020-03-26 13:52:08,111 test_login_shopping.py[line:107] INFO goodname:【热销】玛奇诺 纯植物洗出彩染发膏 泡泡染色洗发露400ml/瓶
+2020-03-26 13:52:13,434 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 13:52:13,736 myunit.py[line:36] INFO =====setUp====
+2020-03-26 13:52:13,738 desired_caps.py[line:34] INFO start app...
+2020-03-26 13:52:23,986 test_login_shopping.py[line:73] INFO 开始测试密码登录严选专区页面下单
+2020-03-26 13:52:26,724 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 13:52:28,172 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 13:52:38,466 loginView.py[line:55] INFO mmlogin !
+2020-03-26 13:52:53,401 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 13:53:00,474 test_login_shopping.py[line:84] INFO goodname:(严选精品)希卡贝尔洗面奶+水乳霜+手霜+变色唇膏   面部手部双重护理  滋润保湿 
+2020-03-26 13:53:06,192 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 13:53:06,414 myunit.py[line:36] INFO =====setUp====
+2020-03-26 13:53:06,416 desired_caps.py[line:34] INFO start app...
+2020-03-26 13:53:16,536 test_login_shopping.py[line:24] INFO 开始测试密码登录主页搜索下单
+2020-03-26 13:53:19,258 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 13:53:20,667 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 13:53:29,986 loginView.py[line:55] INFO mmlogin !
+2020-03-26 13:53:44,315 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 13:53:52,846 indexView.py[line:48] INFO 搜到6件商品
+2020-03-26 13:54:09,703 test_login_shopping.py[line:39] INFO goodname:【热销】慕恋绒 女款纯棉短袖T恤简约上衣202014
+2020-03-26 13:54:15,146 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 13:54:15,387 myunit.py[line:36] INFO =====setUp====
+2020-03-26 13:54:15,396 desired_caps.py[line:34] INFO start app...
+2020-03-26 13:54:25,563 test_login_shopping.py[line:50] INFO 开始测试快捷登录分类页面下单
+2020-03-26 13:54:28,339 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 13:54:29,804 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 13:54:39,529 loginView.py[line:71] INFO quicklogin !
+2020-03-26 13:54:54,597 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 13:55:09,954 test_login_shopping.py[line:61] INFO goodname:【热销】玛奇诺 纯植物洗出彩染发膏 泡泡染色洗发露400ml/瓶
+2020-03-26 13:55:15,246 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 14:08:42,343 myunit.py[line:36] INFO =====setUp====
+2020-03-26 14:08:42,345 desired_caps.py[line:34] INFO start app...
+2020-03-26 14:08:52,008 test_login_shopping.py[line:96] INFO 开始测试密码登录购物车页面结算下单
+2020-03-26 14:08:54,777 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 14:08:56,143 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 14:09:05,661 loginView.py[line:55] INFO mmlogin !
+2020-03-26 14:09:21,514 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 14:09:26,030 cartView.py[line:25] INFO 购物车有3件商品
+2020-03-26 14:09:29,764 test_login_shopping.py[line:107] INFO goodname:【热销】玛奇诺 纯植物洗出彩染发膏 泡泡染色洗发露400ml/瓶
+2020-03-26 14:09:35,361 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 14:09:35,598 myunit.py[line:36] INFO =====setUp====
+2020-03-26 14:09:35,600 desired_caps.py[line:34] INFO start app...
+2020-03-26 14:09:45,572 test_login_shopping.py[line:73] INFO 开始测试密码登录严选专区页面下单
+2020-03-26 14:09:48,292 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 14:09:49,685 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 14:10:03,572 loginView.py[line:55] INFO mmlogin !
+2020-03-26 14:10:14,018 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 14:10:20,379 test_login_shopping.py[line:84] INFO goodname:(严选精品)希卡贝尔洗面奶+水乳霜+手霜+变色唇膏   面部手部双重护理  滋润保湿 
+2020-03-26 14:10:25,367 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 14:10:25,607 myunit.py[line:36] INFO =====setUp====
+2020-03-26 14:10:25,609 desired_caps.py[line:34] INFO start app...
+2020-03-26 14:10:35,901 test_login_shopping.py[line:24] INFO 开始测试密码登录主页搜索下单
+2020-03-26 14:10:38,785 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 14:10:40,182 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 14:10:49,483 loginView.py[line:55] INFO mmlogin !
+2020-03-26 14:11:04,078 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 14:11:12,230 indexView.py[line:48] INFO 搜到6件商品
+2020-03-26 14:11:28,372 test_login_shopping.py[line:39] INFO goodname:【热销】慕恋绒 女款纯棉短袖T恤简约上衣202014
+2020-03-26 14:11:33,770 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 14:11:34,001 myunit.py[line:36] INFO =====setUp====
+2020-03-26 14:11:34,002 desired_caps.py[line:34] INFO start app...
+2020-03-26 14:11:43,945 test_login_shopping.py[line:50] INFO 开始测试快捷登录分类页面下单
+2020-03-26 14:11:46,672 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 14:11:48,100 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 14:11:58,004 loginView.py[line:71] INFO quicklogin !
+2020-03-26 14:12:13,657 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 14:12:26,783 test_login_shopping.py[line:61] INFO goodname:【热销】玛奇诺 纯植物洗出彩染发膏 泡泡染色洗发露400ml/瓶
+2020-03-26 14:12:32,714 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 14:28:29,382 myunit.py[line:36] INFO =====setUp====
+2020-03-26 14:28:29,384 desired_caps.py[line:34] INFO start app...
+2020-03-26 14:28:39,162 test_login_shopping.py[line:24] INFO 开始测试密码登录主页搜索下单
+2020-03-26 14:28:41,903 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 14:28:43,317 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 14:28:53,427 loginView.py[line:55] INFO mmlogin !
+2020-03-26 14:29:05,875 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 14:29:13,564 indexView.py[line:48] INFO 搜到6件商品
+2020-03-26 14:29:29,610 test_login_shopping.py[line:39] INFO goodname:【热销】慕恋绒 女款纯棉短袖T恤简约上衣202014
+2020-03-26 14:29:34,830 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 14:29:35,076 myunit.py[line:36] INFO =====setUp====
+2020-03-26 14:29:35,078 desired_caps.py[line:34] INFO start app...
+2020-03-26 14:29:45,239 test_login_shopping.py[line:50] INFO 开始测试快捷登录分类页面下单
+2020-03-26 14:29:47,994 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 14:29:49,456 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 14:30:01,819 loginView.py[line:71] INFO quicklogin !
+2020-03-26 14:30:16,654 loginView.py[line:49] INFO ===========logined in========== !
+2020-03-26 14:30:31,446 test_login_shopping.py[line:61] INFO goodname:【热销】玛奇诺 纯植物洗出彩染发膏 泡泡染色洗发露400ml/瓶
+2020-03-26 14:30:36,556 myunit.py[line:40] INFO ====tearDown====
+2020-03-26 16:24:21,001 myunit.py[line:46] INFO =====setUp====
+2020-03-26 16:24:21,003 desired_caps.py[line:34] INFO start app...
+2020-03-26 16:24:31,454 test_login_shopping.py[line:30] INFO 开始测试密码登录主页搜索下单
+2020-03-26 16:24:34,204 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 16:24:35,655 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 16:24:46,465 loginView.py[line:69] INFO mmlogin !
+2020-03-26 16:24:58,469 loginView.py[line:57] INFO ===========logined in========== !
+2020-03-26 16:25:06,519 indexView.py[line:61] INFO 搜到6件商品
+2020-03-26 16:25:22,497 test_login_shopping.py[line:45] INFO goodname:【热销】慕恋绒 女款纯棉短袖T恤简约上衣202014
+2020-03-26 16:25:28,167 myunit.py[line:54] INFO ====tearDown====
+2020-03-26 16:25:28,397 myunit.py[line:46] INFO =====setUp====
+2020-03-26 16:25:28,399 desired_caps.py[line:34] INFO start app...
+2020-03-26 16:25:38,373 test_login_shopping.py[line:60] INFO 开始测试快捷登录分类页面下单
+2020-03-26 16:25:41,109 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 16:25:42,506 common_fun.py[line:113] INFO swipeLeft
+2020-03-26 16:25:51,819 loginView.py[line:98] INFO quicklogin !
+2020-03-26 16:26:07,226 loginView.py[line:57] INFO ===========logined in========== !
+2020-03-26 16:26:21,653 test_login_shopping.py[line:71] INFO goodname:【热销】玛奇诺 纯植物洗出彩染发膏 泡泡染色洗发露400ml/瓶
+2020-03-26 16:26:27,326 myunit.py[line:54] INFO ====tearDown====
+2020-04-08 19:27:26,010 myunit.py[line:46] INFO =====setUp====
+2020-04-08 19:27:26,012 desired_caps.py[line:34] INFO start app...
+2020-04-08 19:27:40,401 test_login_shopping.py[line:30] INFO 开始测试密码登录主页搜索下单
+2020-04-08 19:27:43,220 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 19:27:44,620 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 19:27:57,372 loginView.py[line:69] INFO mmlogin !
+2020-04-08 19:28:08,853 loginView.py[line:57] INFO ===========logined in========== !
+2020-04-08 19:28:16,058 indexView.py[line:61] INFO 搜到6件商品
+2020-04-08 19:28:31,244 myunit.py[line:54] INFO ====tearDown====
+2020-04-08 19:28:31,438 myunit.py[line:46] INFO =====setUp====
+2020-04-08 19:28:31,440 desired_caps.py[line:34] INFO start app...
+2020-04-08 19:28:41,367 test_login_shopping.py[line:60] INFO 开始测试快捷登录分类页面下单
+2020-04-08 19:28:44,204 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 19:28:45,580 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 19:28:58,873 loginView.py[line:98] INFO quicklogin !
+2020-04-08 19:29:03,385 myunit.py[line:54] INFO ====tearDown====
+2020-04-08 19:30:06,753 myunit.py[line:46] INFO =====setUp====
+2020-04-08 19:30:06,755 desired_caps.py[line:34] INFO start app...
+2020-04-08 19:30:16,364 test_login_shopping.py[line:118] INFO 开始测试密码登录购物车页面结算下单
+2020-04-08 19:30:19,200 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 19:30:20,568 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 19:30:34,299 loginView.py[line:69] INFO mmlogin !
+2020-04-08 19:30:44,894 loginView.py[line:57] INFO ===========logined in========== !
+2020-04-08 19:30:46,545 cartView.py[line:32] INFO 购物车为空！
+2020-04-08 19:30:55,154 myunit.py[line:54] INFO ====tearDown====
+2020-04-08 19:30:55,334 myunit.py[line:46] INFO =====setUp====
+2020-04-08 19:30:55,336 desired_caps.py[line:34] INFO start app...
+2020-04-08 19:31:05,260 test_login_shopping.py[line:88] INFO 开始测试密码登录严选专区页面下单
+2020-04-08 19:31:07,937 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 19:31:09,312 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 19:31:18,757 loginView.py[line:69] INFO mmlogin !
+2020-04-08 19:31:30,340 loginView.py[line:57] INFO ===========logined in========== !
+2020-04-08 19:31:36,376 test_login_shopping.py[line:101] INFO goodname:(严选精品)希卡贝尔洗面奶+水乳霜+手霜+变色唇膏   面部手部双重护理  滋润保湿 
+2020-04-08 19:31:42,257 myunit.py[line:54] INFO ====tearDown====
+2020-04-08 19:31:42,462 myunit.py[line:46] INFO =====setUp====
+2020-04-08 19:31:42,464 desired_caps.py[line:34] INFO start app...
+2020-04-08 19:31:52,305 test_login_shopping.py[line:30] INFO 开始测试密码登录主页搜索下单
+2020-04-08 19:31:55,120 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 19:31:56,493 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 19:32:10,897 loginView.py[line:69] INFO mmlogin !
+2020-04-08 19:32:24,186 loginView.py[line:57] INFO ===========logined in========== !
+2020-04-08 19:32:31,912 indexView.py[line:61] INFO 搜到6件商品
+2020-04-08 19:32:46,882 myunit.py[line:54] INFO ====tearDown====
+2020-04-08 19:41:19,674 myunit.py[line:46] INFO =====setUp====
+2020-04-08 19:41:19,676 desired_caps.py[line:34] INFO start app...
+2020-04-08 19:41:29,231 test_login_shopping.py[line:118] INFO 开始测试密码登录购物车页面结算下单
+2020-04-08 19:41:32,056 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 19:41:33,393 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 19:41:46,838 loginView.py[line:69] INFO mmlogin !
+2020-04-08 19:41:56,823 loginView.py[line:57] INFO ===========logined in========== !
+2020-04-08 19:41:58,474 cartView.py[line:32] INFO 购物车为空！
+2020-04-08 19:42:07,373 myunit.py[line:54] INFO ====tearDown====
+2020-04-08 19:42:07,580 myunit.py[line:46] INFO =====setUp====
+2020-04-08 19:42:07,583 desired_caps.py[line:34] INFO start app...
+2020-04-08 19:42:17,487 test_login_shopping.py[line:88] INFO 开始测试密码登录严选专区页面下单
+2020-04-08 19:42:20,141 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 19:42:21,507 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 19:42:35,375 loginView.py[line:69] INFO mmlogin !
+2020-04-08 19:42:45,545 loginView.py[line:57] INFO ===========logined in========== !
+2020-04-08 19:42:51,382 test_login_shopping.py[line:101] INFO goodname:(严选精品)希卡贝尔洗面奶+水乳霜+手霜+变色唇膏   面部手部双重护理  滋润保湿 
+2020-04-08 19:42:56,510 myunit.py[line:54] INFO ====tearDown====
+2020-04-08 19:42:56,738 myunit.py[line:46] INFO =====setUp====
+2020-04-08 19:42:56,740 desired_caps.py[line:34] INFO start app...
+2020-04-08 19:43:06,602 test_login_shopping.py[line:30] INFO 开始测试密码登录主页搜索下单
+2020-04-08 19:43:09,375 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 19:43:10,731 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 19:43:28,264 loginView.py[line:69] INFO mmlogin !
+2020-04-08 19:43:39,652 loginView.py[line:57] INFO ===========logined in========== !
+2020-04-08 19:43:46,891 indexView.py[line:61] INFO 搜到6件商品
+2020-04-08 19:43:54,323 indexView.py[line:124] INFO 没有找到商品规格
+2020-04-08 19:43:57,847 indexView.py[line:130] INFO 没有找到商品规格
+2020-04-08 20:30:17,732 myunit.py[line:46] INFO =====setUp====
+2020-04-08 20:30:17,734 desired_caps.py[line:34] INFO start app...
+2020-04-08 20:30:32,564 test_login_shopping.py[line:118] INFO 开始测试密码登录购物车页面结算下单
+2020-04-08 20:30:35,362 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 20:30:36,769 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 20:30:45,601 loginView.py[line:69] INFO mmlogin !
+2020-04-08 20:31:02,609 loginView.py[line:57] INFO ===========logined in========== !
+2020-04-08 20:31:04,047 cartView.py[line:32] INFO 购物车为空！
+2020-04-08 20:31:13,230 myunit.py[line:54] INFO ====tearDown====
+2020-04-08 20:31:13,430 myunit.py[line:46] INFO =====setUp====
+2020-04-08 20:31:13,433 desired_caps.py[line:34] INFO start app...
+2020-04-08 20:31:23,190 test_login_shopping.py[line:88] INFO 开始测试密码登录严选专区页面下单
+2020-04-08 20:31:26,005 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 20:31:27,368 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 20:31:38,645 loginView.py[line:69] INFO mmlogin !
+2020-04-08 20:31:51,442 loginView.py[line:57] INFO ===========logined in========== !
+2020-04-08 20:31:57,553 test_login_shopping.py[line:101] INFO goodname:(严选精品)希卡贝尔洗面奶+水乳霜+手霜+变色唇膏   面部手部双重护理  滋润保湿 
+2020-04-08 20:32:03,821 myunit.py[line:54] INFO ====tearDown====
+2020-04-08 20:32:04,071 myunit.py[line:46] INFO =====setUp====
+2020-04-08 20:32:04,073 desired_caps.py[line:34] INFO start app...
+2020-04-08 20:32:14,131 test_login_shopping.py[line:30] INFO 开始测试密码登录主页搜索下单
+2020-04-08 20:32:16,929 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 20:32:18,294 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 20:32:28,037 loginView.py[line:69] INFO mmlogin !
+2020-04-08 20:32:43,259 loginView.py[line:57] INFO ===========logined in========== !
+2020-04-08 20:32:50,312 indexView.py[line:61] INFO 搜到6件商品
+2020-04-08 20:33:09,595 test_login_shopping.py[line:45] INFO goodname:U.yi尤一小金条至臻溢彩丝绒哑光口红 持久滋润保湿不掉色唇膏3g（2628）
+2020-04-08 20:33:15,957 myunit.py[line:54] INFO ====tearDown====
+2020-04-08 20:33:49,718 myunit.py[line:46] INFO =====setUp====
+2020-04-08 20:33:49,720 desired_caps.py[line:34] INFO start app...
+2020-04-08 20:33:59,569 test_login_shopping.py[line:85] INFO 开始测试密码登录购物车页面结算下单
+2020-04-08 20:34:02,415 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 20:34:03,779 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 20:34:11,381 loginView.py[line:69] INFO mmlogin !
+2020-04-08 20:34:24,863 loginView.py[line:57] INFO ===========logined in========== !
+2020-04-08 20:34:28,720 cartView.py[line:29] INFO 购物车有1件商品
+2020-04-08 20:34:31,917 test_login_shopping.py[line:96] INFO goodname:U.yi尤一小金条至臻溢彩丝绒哑光口红 持久滋润保湿不掉色唇膏3g（2628）
+2020-04-08 20:34:37,255 myunit.py[line:54] INFO ====tearDown====
+2020-04-08 20:34:37,445 myunit.py[line:46] INFO =====setUp====
+2020-04-08 20:34:37,449 desired_caps.py[line:34] INFO start app...
+2020-04-08 20:34:47,382 test_login_shopping.py[line:55] INFO 开始测试密码登录严选专区页面下单
+2020-04-08 20:34:50,214 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 20:34:51,627 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 20:35:01,003 loginView.py[line:69] INFO mmlogin !
+2020-04-08 20:35:16,392 loginView.py[line:57] INFO ===========logined in========== !
+2020-04-08 20:35:22,470 test_login_shopping.py[line:68] INFO goodname:(严选精品)希卡贝尔洗面奶+水乳霜+手霜+变色唇膏   面部手部双重护理  滋润保湿 
+2020-04-08 20:35:27,573 myunit.py[line:54] INFO ====tearDown====
+2020-04-08 20:35:27,830 myunit.py[line:46] INFO =====setUp====
+2020-04-08 20:35:27,832 desired_caps.py[line:34] INFO start app...
+2020-04-08 20:35:37,743 test_login_shopping.py[line:114] INFO 开始测试密码登录主页搜索下单
+2020-04-08 20:35:40,549 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 20:35:41,939 common_fun.py[line:113] INFO swipeLeft
+2020-04-08 20:35:51,339 loginView.py[line:69] INFO mmlogin !
+2020-04-08 20:36:07,582 loginView.py[line:57] INFO ===========logined in========== !
+2020-04-08 20:36:14,311 indexView.py[line:61] INFO 搜到6件商品
+2020-04-08 20:36:33,869 test_login_shopping.py[line:129] INFO goodname:U.yi尤一小金条至臻溢彩丝绒哑光口红 持久滋润保湿不掉色唇膏3g（2628）
+2020-04-08 20:36:38,590 myunit.py[line:54] INFO ====tearDown====

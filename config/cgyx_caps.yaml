@@ -1,0 +1,32 @@
+platformName: Android
+#模拟器
+#platformVersion: 5.1.1
+#deviceName: 127.0.0.1:62001
+
+
+#HUAWEI P7
+#platformVersion: 4.4.2
+#udid: 7N2RDQ149T026117
+#deviceName: HUAWEI P7
+
+#Redmi Note 4X
+#platformVersion: 6.0
+#udid: YS55VOYDS88SDQ9T
+#deviceName: Redmi Note 4X
+
+#HUAWEI P20
+platformVersion: 10.0.0
+udid: CLB0218615004786
+deviceName: HUAWEI P20
+
+appname: chungou_v1.4.7_2020-03-12_15_preview6.apk
+noReset: False
+#noReset: True
+ANDROID_UIAUTOMATOR: uiautomator2
+unicodeKeyboard: True
+resetKeyboard: True
+
+appPackage: com.xiniao.cgmarket
+appActivity: com.ddz.component.welcome.WelcomeActivity
+ip: 127.0.0.1
+port: 4723

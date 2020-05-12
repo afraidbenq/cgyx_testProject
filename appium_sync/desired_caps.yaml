@@ -1,0 +1,10 @@
+platformName: Android
+platformVersion: 5.1.1
+deviceName: yeshenmoniqiS
+app: C:\cgyx_testProject\app\chungou_v1.4.7_2020-03-10_10__test.apk
+appPackage: com.xiniao.cgmarket
+appActivity: com.ddz.component.welcome.WelcomeActivity
+noReset: True
+unicodeKeyboard: True
+resetKeyboard: True
+ip: 127.0.0.1
