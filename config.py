@@ -15,70 +15,27 @@ class BaseConf(object):
     else:
         SYS = "linux"
 
-    # MAC os
-    chrome_app = "/Applications/Google\ Chrome.app/Contents/MacOS/"  # mac os chrome安装地址
-
-    # Win
-    chrome_reg = r"SOFTWARE\Google\Chrome\BLBeacon"  # win chrome注册表地址
-
-    # 用例配置
-    soft_name = "GOOCKR CHARGING"
-
-    BROWSER = "Chrome"  # 启动浏览器
-
-    url = "http://activate.navicat.com/zzcdbV2/#/login"  # 首页
-
-    USER = "admin"
-
-    PWD = "Goockr.8686"
-
     system = platform.platform()  # 系统信息
-
-    driver_url = "https://npm.taobao.org/mirrors/chromedriver/"
 
     TIMEOUT = 12  # 元素等待超时时间
 
     exists = 10  # 元素存在等待时间
 
-    report_title = "果壳租电后台自动化测试报告"  # 报告名字
-
-    # 不执行的测试集
-    skip_suite = []
-
     # 路径配置
-
-    # CASE_NUM = None
 
     ROOT = os.path.dirname(os.path.abspath(__file__))
 
     report_path = os.path.join(ROOT, "Report")  # 报告路径
 
-    driver_dir = os.path.join(ROOT, "chromedriver")  # 驱动路径
-
     suite_name = "TestSuite"
 
     suite_dir = os.path.join(ROOT, suite_name)  # 测试套件路径
 
-    report_mod = os.path.join(ROOT, "templates", "report_template.html")
+    LOG_DIR = os.path.join(ROOT, "logs")  # 日志地址
 
-    xmind = os.path.join(ROOT, "Xmind")
-
-    LOG_DIR = os.path.join(ROOT, "Log")  # 日志地址
-
-    CONFIG_DIR = os.path.join(ROOT, "config")
+    CONFIG_DIR = os.path.join(ROOT, "config")  # 配置文件路径
 
     img_dir = os.path.join(ROOT, "img")  # 截图路径
-
-
-    LOGGER = "webdriver_test"  # 日志名
-
-    # 失败重跑次数
-    RETRY = 0
-
-    # 定位方法映射
-    location = dict(css="CSS_SELECTOR", id="ID", name="NAME", xpath="XPATH",
-                    link_text="LINK_TEXT", partial_link_text="PARTIAL_LINK_TEXT",
-                    tag_name="TAG_NAME", class_name="CLASS_NAME")
 
     # mongo数据库配置信息
     MONGO_HOST = "192.168.199.9" if ENV == "dev" else "192.168.1.xx"
@@ -103,17 +60,14 @@ class BaseConf(object):
 
     # API主机域名
     # API_HOST = "http://testnewapi.chungoulife.com"  # 测试服
-    # API_HOST = "http://readynewmall.chungoulife.com"  # 预发布
+    # API_HOST = "http://readynewapi.chungoulife.com"  # 预发布
     API_HOST = "http://graynewapi.chungoulife.com"  # 灰度
-
-    # xmind头文件配置
-    xmind_head = ["from TestSuite.base_case import BaseCase",
-                  "from Tools.decorator import screenshot"]
 
 
 class TiebaConf(BaseConf):
     url = "http://tieba.baidu.com"  # 测试百度贴吧配置
-
+    pass
+    
 
 def set_config():
     # 使用CMD运行此脚本时，在run_case.py 后面加上SearchConf ，运行时会调用TiebaConf的配置替换BaseConf
