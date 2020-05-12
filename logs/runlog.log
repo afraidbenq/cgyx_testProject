@@ -579,3 +579,161 @@
 2020-04-08 20:36:14,311 indexView.py[line:61] INFO 搜到6件商品
 2020-04-08 20:36:33,869 test_login_shopping.py[line:129] INFO goodname:U.yi尤一小金条至臻溢彩丝绒哑光口红 持久滋润保湿不掉色唇膏3g（2628）
 2020-04-08 20:36:38,590 myunit.py[line:54] INFO ====tearDown====
+2020-05-12 12:18:01,935 myunit.py[line:46] INFO =====setUp====
+2020-05-12 12:18:01,937 desired_caps.py[line:34] INFO start app...
+2020-05-12 12:18:12,698 test_login_shopping.py[line:85] INFO 开始测试密码登录购物车页面结算下单
+2020-05-12 12:18:15,477 common_fun.py[line:114] INFO swipeLeft
+2020-05-12 12:18:16,899 common_fun.py[line:114] INFO swipeLeft
+2020-05-12 12:18:28,836 loginView.py[line:70] INFO mmlogin !
+2020-05-12 12:18:39,356 loginView.py[line:58] INFO ===========logined in========== !
+2020-05-12 12:18:46,987 cartView.py[line:29] INFO 购物车有0件商品
+2020-05-12 12:18:51,729 myunit.py[line:54] INFO ====tearDown====
+2020-05-12 12:18:51,964 myunit.py[line:46] INFO =====setUp====
+2020-05-12 12:18:51,966 desired_caps.py[line:34] INFO start app...
+2020-05-12 12:19:03,187 test_login_shopping.py[line:55] INFO 开始测试密码登录严选专区页面下单
+2020-05-12 12:19:05,916 common_fun.py[line:114] INFO swipeLeft
+2020-05-12 12:19:07,360 common_fun.py[line:114] INFO swipeLeft
+2020-05-12 12:19:19,866 loginView.py[line:70] INFO mmlogin !
+2020-05-12 12:19:29,876 loginView.py[line:58] INFO ===========logined in========== !
+2020-05-12 12:19:34,661 myunit.py[line:54] INFO ====tearDown====
+2020-05-12 12:19:34,920 myunit.py[line:46] INFO =====setUp====
+2020-05-12 12:19:34,922 desired_caps.py[line:34] INFO start app...
+2020-05-12 12:19:46,051 test_login_shopping.py[line:114] INFO 开始测试密码登录主页搜索下单
+2020-05-12 12:19:48,803 common_fun.py[line:114] INFO swipeLeft
+2020-05-12 12:19:50,211 common_fun.py[line:114] INFO swipeLeft
+2020-05-12 12:20:02,733 loginView.py[line:70] INFO mmlogin !
+2020-05-12 12:20:12,606 loginView.py[line:58] INFO ===========logined in========== !
+2020-05-12 12:20:33,018 myunit.py[line:54] INFO ====tearDown====
+2020-05-12 12:20:33,201 myunit.py[line:46] INFO =====setUp====
+2020-05-12 12:20:33,203 desired_caps.py[line:34] INFO start app...
+2020-05-12 12:20:44,473 test_my_page.py[line:28] INFO 开始测试用户头像
+2020-05-12 12:20:47,196 common_fun.py[line:114] INFO swipeLeft
+2020-05-12 12:20:48,594 common_fun.py[line:114] INFO swipeLeft
+2020-05-12 12:21:00,720 loginView.py[line:70] INFO mmlogin !
+2020-05-12 12:21:15,766 myunit.py[line:54] INFO ====tearDown====
+2020-05-12 14:00:08,397 myunit.py[line:46] INFO =====setUp====
+2020-05-12 14:00:08,399 desired_caps.py[line:34] INFO start app...
+2020-05-12 14:00:19,694 test_login_shopping.py[line:85] INFO 开始测试密码登录购物车页面结算下单
+2020-05-12 14:00:22,411 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 14:00:23,817 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 14:00:36,116 common_fun.py[line:25] INFO ======= check verify btn =======
+2020-05-12 14:00:39,645 common_fun.py[line:30] INFO no verify btn
+2020-05-12 14:00:39,683 loginView.py[line:71] INFO mmlogin !
+2020-05-12 14:00:44,986 common_fun.py[line:25] INFO ======= check verify btn =======
+2020-05-12 14:00:49,837 loginView.py[line:59] INFO ===========logined in========== !
+2020-05-12 14:00:54,204 cartView.py[line:29] INFO 购物车有1件商品
+2020-05-12 14:00:56,572 test_login_shopping.py[line:96] INFO goodname:U.yi尤一小金条至臻溢彩丝绒哑光口红 持久滋润保湿不掉色唇膏3g（2628）
+2020-05-12 14:01:01,362 myunit.py[line:54] INFO ====tearDown====
+2020-05-12 14:01:01,611 myunit.py[line:46] INFO =====setUp====
+2020-05-12 14:01:01,615 desired_caps.py[line:34] INFO start app...
+2020-05-12 14:01:12,683 test_login_shopping.py[line:55] INFO 开始测试密码登录严选专区页面下单
+2020-05-12 14:01:15,350 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 14:01:16,803 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 14:01:28,517 common_fun.py[line:25] INFO ======= check verify btn =======
+2020-05-12 14:01:32,465 common_fun.py[line:30] INFO no verify btn
+2020-05-12 14:01:32,501 loginView.py[line:71] INFO mmlogin !
+2020-05-12 14:01:38,147 common_fun.py[line:25] INFO ======= check verify btn =======
+2020-05-12 14:01:43,577 loginView.py[line:59] INFO ===========logined in========== !
+2020-05-12 14:01:51,734 myunit.py[line:54] INFO ====tearDown====
+2020-05-12 14:01:51,935 myunit.py[line:46] INFO =====setUp====
+2020-05-12 14:01:51,937 desired_caps.py[line:34] INFO start app...
+2020-05-12 14:02:02,809 test_login_shopping.py[line:114] INFO 开始测试密码登录主页搜索下单
+2020-05-12 14:02:05,577 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 14:02:06,997 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 14:02:19,108 common_fun.py[line:25] INFO ======= check verify btn =======
+2020-05-12 14:02:22,655 common_fun.py[line:30] INFO no verify btn
+2020-05-12 14:02:22,694 loginView.py[line:71] INFO mmlogin !
+2020-05-12 14:02:29,157 common_fun.py[line:25] INFO ======= check verify btn =======
+2020-05-12 14:02:34,191 loginView.py[line:59] INFO ===========logined in========== !
+2020-05-12 14:02:42,160 indexView.py[line:61] INFO 搜到6件商品
+2020-05-12 14:02:50,296 indexView.py[line:124] INFO 没有找到商品规格
+2020-05-12 14:02:53,977 indexView.py[line:130] INFO 没有找到商品规格
+2020-05-12 14:02:59,316 myunit.py[line:54] INFO ====tearDown====
+2020-05-12 14:02:59,533 myunit.py[line:46] INFO =====setUp====
+2020-05-12 14:02:59,535 desired_caps.py[line:34] INFO start app...
+2020-05-12 14:03:10,506 test_my_page.py[line:28] INFO 开始测试用户头像
+2020-05-12 14:03:13,343 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 14:03:14,840 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 14:03:25,931 common_fun.py[line:25] INFO ======= check verify btn =======
+2020-05-12 14:03:29,007 common_fun.py[line:30] INFO no verify btn
+2020-05-12 14:03:29,053 loginView.py[line:71] INFO mmlogin !
+2020-05-12 14:03:44,170 myunit.py[line:54] INFO ====tearDown====
+2020-05-12 14:08:48,125 myunit.py[line:46] INFO =====setUp====
+2020-05-12 14:08:48,127 desired_caps.py[line:34] INFO start app...
+2020-05-12 14:08:58,590 test_login_shopping.py[line:55] INFO 开始测试密码登录严选专区页面下单
+2020-05-12 14:09:01,349 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 14:09:02,759 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 14:09:13,816 common_fun.py[line:25] INFO ======= check verify btn =======
+2020-05-12 14:09:17,335 common_fun.py[line:30] INFO no verify btn
+2020-05-12 14:09:17,373 loginView.py[line:71] INFO mmlogin !
+2020-05-12 14:09:24,436 common_fun.py[line:25] INFO ======= check verify btn =======
+2020-05-12 14:09:28,159 loginView.py[line:59] INFO ===========logined in========== !
+2020-05-12 14:09:35,709 myunit.py[line:54] INFO ====tearDown====
+2020-05-12 14:32:33,894 desired_caps.py[line:35] INFO start app...
+2020-05-12 14:33:04,587 desired_caps.py[line:35] INFO start app...
+2020-05-12 14:33:40,496 desired_caps.py[line:35] INFO start app...
+2020-05-12 14:45:56,650 myunit.py[line:46] INFO =====setUp====
+2020-05-12 14:45:56,652 desired_caps.py[line:35] INFO start app...
+2020-05-12 14:46:07,971 test_login_shopping.py[line:55] INFO 开始测试密码登录严选专区页面下单
+2020-05-12 14:46:10,863 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 14:46:12,243 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 14:46:23,175 common_fun.py[line:25] INFO ======= check verify btn =======
+2020-05-12 14:46:26,718 common_fun.py[line:30] INFO no verify btn
+2020-05-12 14:46:26,770 loginView.py[line:71] INFO mmlogin !
+2020-05-12 14:46:33,183 common_fun.py[line:25] INFO ======= check verify btn =======
+2020-05-12 14:46:38,127 loginView.py[line:59] INFO ===========logined in========== !
+2020-05-12 14:46:45,639 myunit.py[line:54] INFO ====tearDown====
+2020-05-12 14:57:14,588 desired_caps.py[line:33] INFO start app...
+2020-05-12 14:57:31,695 desired_caps.py[line:33] INFO start app...
+2020-05-12 14:57:45,280 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 14:57:46,664 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 14:57:57,634 common_fun.py[line:25] INFO ======= check verify btn =======
+2020-05-12 14:58:01,179 common_fun.py[line:30] INFO no verify btn
+2020-05-12 14:58:01,217 loginView.py[line:100] INFO quicklogin !
+2020-05-12 14:58:15,956 common_fun.py[line:25] INFO ======= check verify btn =======
+2020-05-12 14:58:20,158 loginView.py[line:59] INFO ===========logined in========== !
+2020-05-12 14:58:40,836 myunit.py[line:46] INFO =====setUp====
+2020-05-12 14:58:40,838 desired_caps.py[line:33] INFO start app...
+2020-05-12 14:58:51,906 test_login_shopping.py[line:55] INFO 开始测试密码登录严选专区页面下单
+2020-05-12 14:58:54,636 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 14:58:56,050 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 14:59:07,805 common_fun.py[line:25] INFO ======= check verify btn =======
+2020-05-12 14:59:10,855 common_fun.py[line:30] INFO no verify btn
+2020-05-12 14:59:10,897 loginView.py[line:71] INFO mmlogin !
+2020-05-12 14:59:17,708 common_fun.py[line:25] INFO ======= check verify btn =======
+2020-05-12 14:59:22,933 loginView.py[line:59] INFO ===========logined in========== !
+2020-05-12 14:59:30,675 myunit.py[line:54] INFO ====tearDown====
+2020-05-12 15:06:47,617 myunit.py[line:47] INFO =====setUp====
+2020-05-12 15:06:47,619 desired_caps.py[line:33] INFO start app...
+2020-05-12 15:06:58,162 test_login_shopping.py[line:55] INFO 开始测试密码登录严选专区页面下单
+2020-05-12 15:07:00,910 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 15:07:02,346 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 15:07:13,623 common_fun.py[line:25] INFO ======= check verify btn =======
+2020-05-12 15:07:17,161 common_fun.py[line:30] INFO no verify btn
+2020-05-12 15:07:17,211 loginView.py[line:71] INFO mmlogin !
+2020-05-12 15:07:25,449 common_fun.py[line:25] INFO ======= check verify btn =======
+2020-05-12 15:07:30,123 loginView.py[line:59] INFO ===========logined in========== !
+2020-05-12 15:07:37,795 myunit.py[line:55] INFO ====tearDown====
+2020-05-12 15:26:41,952 myunit.py[line:48] INFO =====setUp====
+2020-05-12 15:26:41,954 desired_caps.py[line:33] INFO start app...
+2020-05-12 15:26:52,439 test_login_shopping.py[line:85] INFO 开始测试密码登录购物车页面结算下单
+2020-05-12 15:26:55,253 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 15:26:56,662 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 15:27:09,308 common_fun.py[line:25] INFO ======= check verify btn =======
+2020-05-12 15:27:12,844 common_fun.py[line:30] INFO no verify btn
+2020-05-12 15:27:12,894 loginView.py[line:71] INFO mmlogin !
+2020-05-12 15:27:20,886 common_fun.py[line:25] INFO ======= check verify btn =======
+2020-05-12 15:27:25,999 loginView.py[line:59] INFO ===========logined in========== !
+2020-05-12 15:27:30,167 cartView.py[line:29] INFO 购物车有1件商品
+2020-05-12 15:27:35,670 myunit.py[line:56] INFO ====tearDown====
+2020-05-12 15:27:35,878 myunit.py[line:48] INFO =====setUp====
+2020-05-12 15:27:35,882 desired_caps.py[line:33] INFO start app...
+2020-05-12 15:27:47,118 test_login_shopping.py[line:55] INFO 开始测试密码登录严选专区页面下单
+2020-05-12 15:27:49,903 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 15:27:51,308 common_fun.py[line:129] INFO swipeLeft
+2020-05-12 15:28:03,125 common_fun.py[line:25] INFO ======= check verify btn =======
+2020-05-12 15:28:06,168 common_fun.py[line:30] INFO no verify btn
+2020-05-12 15:28:06,217 loginView.py[line:71] INFO mmlogin !
+2020-05-12 15:28:14,701 common_fun.py[line:25] INFO ======= check verify btn =======
+2020-05-12 15:28:19,509 loginView.py[line:59] INFO ===========logined in========== !
+2020-05-12 15:28:27,348 myunit.py[line:56] INFO ====tearDown====

@@ -4,7 +4,7 @@ from common.desired_caps import appium_desired
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-from interface.testAPI import Order
+#from interface.testAPI import Order
 from time import sleep
 
 

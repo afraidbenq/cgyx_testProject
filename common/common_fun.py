@@ -9,12 +9,27 @@ import csv
 
 
 class Common(BaseView):
+    # 实名认证按钮
+    btn_verify_dialog = (By.ID, 'com.xiniao.cgmarket:id/btn_verify_dialog')
+    # 关闭实名认证
+    iv_close = (By.ID, 'com.xiniao.cgmarket:id/iv_close')
+
     allowlocaBtn = (By.ID, 'com.huawei.systemmanager:id/btn_allow')
     allowAddressBtn = (By.ID, 'com.huawei.systemmanager:id/btn_allow')
 
     # 红米note4x
     nextBtn = (By.ID, 'com.goockr.intelligentizeobc:id/goto_settings')
     allowBtn = (By.ID, 'android:id/button1')
+
+    def check_verify_btn(self):
+        logging.info('======= check verify btn =======')
+        try:
+            btn_verify_dialog = self.driver.find_element(*self.btn_verify_dialog)
+            iv_close = self.driver.find_element(*self.iv_close)
+        except NoSuchElementException:
+            logging.info('no verify btn')
+        else:
+            iv_close.click()
 
     def check_allowLocaBtn(self):
         logging.info('=========check allowLocaBtn==========')

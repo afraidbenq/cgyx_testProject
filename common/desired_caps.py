@@ -3,18 +3,16 @@ import yaml
 import logging
 import logging.config
 from os import path
+from config import Config
 
-# log_file_path= '../config/log.conf'
-# print(path.dirname(path.abspath(__file__)))
-log_file_path = path.join(path.dirname(path.abspath(__file__)), '../config/log.conf')
+log_file_path = path.join(Config.CONFIG_DIR, 'log.conf')
 logging.config.fileConfig(log_file_path)
 logging = logging.getLogger()
 
 
 def appium_desired():
-    with open('C:\cgyx_testProject\config\cgyx_caps.yaml', 'r', encoding='utf-8') as file:
+    with open(Config.CONFIG_DIR + '\cgyx_caps.yaml', 'r', encoding='utf-8') as file:
         data = yaml.load(file, Loader=yaml.FullLoader)
-
     desired_caps = {}
     desired_caps['platformName'] = data['platformName']
     desired_caps['platformVersion'] = data['platformVersion']

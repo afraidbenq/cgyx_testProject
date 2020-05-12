@@ -43,7 +43,7 @@ class TestLoginShpping(StartEnd):
 
     # @unittest.skip('test_mmlogin_goodsshopping')
     @BeautifulReport.add_test_img('test_mmlogin_goodsshopping')
-    @ddt.data((13823417742, 123456))
+    @ddt.data((13823417742, 'a12345678'))
     @ddt.unpack
     def test_mmlogin_goodsshopping(self, phone, passwd):
         """
@@ -73,7 +73,7 @@ class TestLoginShpping(StartEnd):
 
     # @unittest.skip('test_mmlogin_cartshopping')
     @BeautifulReport.add_test_img('test_mmlogin_cartshopping')
-    @ddt.data((13823417742, 123456))
+    @ddt.data((13823417742, 'a12345678'))
     @ddt.unpack
     def test_mmlogin_cartshopping(self, phone, passwd):
         """
@@ -99,9 +99,9 @@ class TestLoginShpping(StartEnd):
         # 不报错截图保存结果
         self.GetScreen('购物车页面下单结果')
 
-    #@unittest.skip('test_mmlogin_indexshopping')
+    @unittest.skip('test_mmlogin_indexshopping')
     @BeautifulReport.add_test_img('test_mmlogin_indexshopping')
-    @ddt.data((13823417742, 123456, '绒'))
+    @ddt.data((13823417742, 'a12345678', '绒'))
     @ddt.unpack
     def test_mmlogin_indexshopping(self, phone, passwd, goodname):
         """

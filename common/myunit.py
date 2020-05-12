@@ -3,17 +3,19 @@ from common.desired_caps import appium_desired
 import logging
 import os
 import time
+from config import Config
 
 
 class StartEnd(unittest.TestCase):
-    def save_img(self, img_name):  # 错误截图方法，这个必须先定义好
+    def save_img(self, img_name):  # 错误截图方法，截图大小为 width="800px" height="500px"
+        # 如果要按手机屏幕比例截图需修改BeautifulReport的源代码 25 行如下
+        # <img src="data:image/png;base64, {}" width="500px"/>
         """
         传入一个img_name, 并存储到默认的文件路径下
         :param img_name:
         :return:
         """
-        self.driver.get_screenshot_as_file('{}/{}.png'.format(os.path.abspath(r"C:\cgyx_testProject\img"),
-                                                              img_name))
+        self.driver.get_screenshot_as_file('{}/{}.png'.format(os.path.abspath(Config.img_dir), img_name))
 
     def GetScreen(self, action='结果截图', devices='CLB0218615004786'):
         """
@@ -24,7 +26,7 @@ class StartEnd(unittest.TestCase):
         """
         startTime = time.time()
         # 定义截图存放目录的路径
-        screenpath = os.path.abspath(r"C:\cgyx_testProject\img")
+        screenpath = os.path.abspath(Config.img_dir)
         # 生成图片，此时图片还为空。action是字符串类型，存图片的说明信息
         png = screenpath + "\\" + time.strftime('%Y-%m-%d__%H-%M-%S',
                                                 time.localtime(startTime)) + "_" + "_" + action + ".png"

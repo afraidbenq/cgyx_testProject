@@ -55,8 +55,6 @@ class BaseConf(object):
 
     driver_dir = os.path.join(ROOT, "chromedriver")  # 驱动路径
 
-    pic_dir = os.path.join(ROOT, "ErrorPic")  # 截图路径
-
     suite_name = "TestSuite"
 
     suite_dir = os.path.join(ROOT, suite_name)  # 测试套件路径
@@ -66,6 +64,11 @@ class BaseConf(object):
     xmind = os.path.join(ROOT, "Xmind")
 
     LOG_DIR = os.path.join(ROOT, "Log")  # 日志地址
+
+    CONFIG_DIR = os.path.join(ROOT, "config")
+
+    img_dir = os.path.join(ROOT, "img")  # 截图路径
+
 
     LOGGER = "webdriver_test"  # 日志名
 
@@ -93,15 +96,15 @@ class BaseConf(object):
     # 预发布数据库
     MYSQL_HOST = "gz-cdb-h2ub8r9n.sql.tencentcdb.com" if ENV == "dev" else "gz-cdb-h2ub8r9n.sql.tencentcdb.com"
     MYSQL_PORT = "60581"
-    MYSQL_USER = "test"
-    MYSQL_PWD = "Test123456"
-
-
+    # MYSQL_USER = "test"
+    # MYSQL_PWD = "Test123456"
+    MYSQL_USER = "hyl"
+    MYSQL_PWD = "Hyl12345600"
 
     # API主机域名
     # API_HOST = "http://testnewapi.chungoulife.com"  # 测试服
-    API_HOST = "http://readynewmall.chungoulife.com"  # 预发布
-    # API_HOST = "http://graynewmall.chungoulife.com"  # 灰度
+    # API_HOST = "http://readynewmall.chungoulife.com"  # 预发布
+    API_HOST = "http://graynewapi.chungoulife.com"  # 灰度
 
     # xmind头文件配置
     xmind_head = ["from TestSuite.base_case import BaseCase",

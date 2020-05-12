@@ -14,7 +14,7 @@ from BeautifulReport import BeautifulReport
 @ddt.ddt
 class TestMyPage(StartEnd):
 
-    # @unittest.skip('test_user_head_pic')
+    @unittest.skip('test_user_head_pic')
     @BeautifulReport.add_test_img('test_user_head_pic')
     @ddt.data((13823417742, 123456))
     @ddt.unpack

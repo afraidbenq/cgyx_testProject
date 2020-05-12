@@ -8,6 +8,7 @@ from DataBase.mysqldb import MysqlDb
 from time import sleep
 
 
+
 class LoginView(Common):
     indicator = (By.ID, "com.xiniao.cgmarket:id/vp_indicator")
     go_app = (By.ID, "com.xiniao.cgmarket:id/tv_go_app")
@@ -51,6 +52,7 @@ class LoginView(Common):
         """
         WebDriverWait(self.driver, 10).until(EC.presence_of_element_located(self.my))
         self.driver.find_element(*self.my).click()
+        self.check_verify_btn()
         try:
             element = self.driver.find_element(*self.mmloginBtn)
         except NoSuchElementException:
