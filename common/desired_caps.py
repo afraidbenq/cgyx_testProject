@@ -28,6 +28,7 @@ def appium_desired():
     desired_caps['ANDROID_UIAUTOMATOR'] = data['ANDROID_UIAUTOMATOR']
     desired_caps['unicodeKeyboard'] = data['unicodeKeyboard']
     desired_caps['resetKeyboard'] = data['resetKeyboard']
+    desired_caps['chromedriverUseSystemExecutable'] = data['chromedriverUseSystemExecutable']
 
     logging.info('start app...')
     driver = webdriver.Remote('http://' + str(data['ip']) + ':' + str(data['port']) + '/wd/hub', desired_caps)

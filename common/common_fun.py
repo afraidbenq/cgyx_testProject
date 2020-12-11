@@ -1,5 +1,9 @@
 from baseView.baseView import BaseView
 from common.desired_caps import appium_desired
+from appium.webdriver.common.touch_action import TouchAction
+# from appium.webdriver.webdriver import Command
+
+from appium.webdriver.mobilecommand import MobileCommand
 from selenium.common.exceptions import NoSuchElementException
 import logging
 from selenium.webdriver.common.by import By
@@ -170,7 +174,68 @@ class Common(BaseView):
         # print(self.driver.activate_ime_engine())
         # print(self.driver.active_ime_engine)
         # print(self.driver.add_cookie)
-        # print(self.driver.all_sessions)
+        print(self.driver.all_sessions)
+        print(self.driver.contexts)
+        elms = self.driver.find_elements_by_xpath("//*")
+        # print(dir(elms[0]))
+        el = ['clear', 'click',
+              'get_attribute', 'get_property', 'id', 'is_displayed', 'is_enabled', 'is_selected',
+              'location', 'location_in_view', 'location_once_scrolled_into_view', 'parent', 'rect', 'screenshot',
+              'screenshot_as_base64', 'screenshot_as_png', 'send_keys', 'set_text', 'set_value', 'size', 'submit',
+              'tag_name', 'text', 'value_of_css_property']
+        # [checkable, checked, {class,className}, clickable, {content-desc,contentDescription},
+        # enabled, focusable, focused, {long-clickable,longClickable}, package, password,
+        # {resource-id,resourceId}, scrollable, selection-start, selection-end, selected, {text,name}, bounds,
+        # displayed, contentSize]
+        # for i in elms:
+        #     i
+        print(len(elms))
+        print(elms[0].rect)
+        print(elms[0].tag_name)
+        elms_dict = {}
+        for i in elms:
+            # print(i.id.split('-')[0])
+            # print(i.get_attribute('class'))
+            # print(i.get_attribute('contentDescription'))
+            # print(i.get_attribute('text'))
+            print(i.get_attribute('resource-id'))
+        print(elms[0].get_attribute('text'))
+        print(elms[0].get_attribute('resource-id'))
+        print(elms[0].get_attribute('class'))
+        print(elms[0].get_attribute('package'))
+        print(elms[0].get_attribute('content-desc'))
+        print(elms[0].get_attribute('bounds'))
+
+        print(elms[0].id)
+        print(elms[0].location)
+        print(elms[0].location_in_view)
+        print(elms[0].size)
+        # TouchAction(self.driver).press(x=172, y=622).move_to(x=538, y=620). \
+        #     move_to(x=905, y=625).move_to(x=537, y=976).move_to(x=176, y=1343). \
+        #     move_to(x=537, y=1340).move_to(x=902, y=1343).perform()
+        # TouchAction(self.driver).press(x=172, y=622).move_to(x=538, y=620). \
+        #     move_to(x=905, y=625).move_to(x=537, y=976).move_to(x=176, y=1343). \
+        #     move_to(x=537, y=1340).move_to(x=902, y=1343).perform()
+        exec("TouchAction(self.driver).press(x=172, y=622).move_to(x=538, y=620). \
+            move_to(x=905, y=625).move_to(x=537, y=976).move_to(x=176, y=1343). \
+            move_to(x=537, y=1340).move_to(x=902, y=1343).perform()")
+
+        # print(self.driver.page_source)
+        # start_x = elms[0].location['x']
+        # start_y = elms[0].location['y']
+        # end_x = elms[0].location['x'] + elms[0].size['height']
+        # end_y = elms[0].location['y']
+        # self.driver.swipe(start_x, start_y, end_x, end_y, duration=2000)
+        # start_x = elms[0].location['x'] + elms[0].size['height']
+        # start_y = elms[0].location['y']
+        # end_x = elms[0].location['x'] + elms[0].size['height']
+        # end_y = elms[0].location['y']+elms[0].size['width']
+        # self.driver.swipe(start_x, start_y, end_x, end_y, duration=2000)
+
+        # print()
+        # for i in elms:
+        #     print(i.)
+
         # print(self.driver.app_strings)
         # print(self.driver.application_cache)
         # print(dir(self.driver))
@@ -182,122 +247,136 @@ class Common(BaseView):
         # self.get()
         # self.driver.get_clipboard()
         # self.driver.find_element()
-        app=['activate_app',
-             'activate_ime_engine',
-             'active_ime_engine',
-             'add_cookie',
-             'all_sessions',
-             'app_strings',
-             'application_cache',
-             'available_ime_engines',
-             'back',
-             'background_app',
-             'battery_info',
-             'capabilities',
-             'close',
-             'close_app',
-             'command_executor',
-             'context',
-             'contexts',
-             'create_web_element',
-             'current_activity',
-             'current_context',
-             'current_package',
-             'current_url',
-             'current_window_handle',
-             'deactivate_ime_engine',
-             'delete_all_cookies',
-             'delete_cookie', 'desired_capabilities',
-             'device_time', 'drag_and_drop',
-             'end_test_coverage', 'error_handler',
-             'events', 'execute',
-             'execute_async_script', 'execute_driver',
-             'execute_script', 'file_detector',
-             'file_detector_context',
-             'find_element',
-             'find_element_by_accessibility_id',
-             'find_element_by_android_data_matcher',
-             'find_element_by_android_uiautomator',
-             'find_element_by_android_view_matcher',
-             'find_element_by_android_viewtag',
-             'find_element_by_class_name',
-             'find_element_by_css_selector',
-             'find_element_by_custom',
-             'find_element_by_id',
-             'find_element_by_image',
-             'find_element_by_ios_class_chain',
-             'find_element_by_ios_predicate',
-             'find_element_by_ios_uiautomation',
-             'find_element_by_link_text',
-             'find_element_by_name',
-             'find_element_by_partial_link_text',
-             'find_element_by_tag_name',
-             'find_element_by_windows_uiautomation',
-             'find_element_by_xpath',
-             'find_elements',
-             'find_elements_by_accessibility_id',
-             'find_elements_by_android_data_matcher',
-             'find_elements_by_android_uiautomator',
-             'find_elements_by_android_viewtag',
-             'find_elements_by_class_name',
-             'find_elements_by_css_selector',
-             'find_elements_by_custom',
-             'find_elements_by_id',
-             'find_elements_by_image',
-             'find_elements_by_ios_class_chain',
-             'find_elements_by_ios_predicate',
-             'find_elements_by_ios_uiautomation',
-             'find_elements_by_link_text',
-             'find_elements_by_name',
-             'find_elements_by_partial_link_text',
-             'find_elements_by_tag_name',
-             'find_elements_by_windows_uiautomation',
-             'find_elements_by_xpath',
-             'find_image_occurrence',
-             'finger_print', 'flick',
-             'forward', 'fullscreen_window',
-             'get', 'get_clipboard',
-             'get_clipboard_text', 'get_cookie',
-             'get_cookies', 'get_device_time',
-             'get_display_density', 'get_events',
-             'get_images_similarity', 'get_log',
-             'get_performance_data', 'get_performance_data_types',
-             'get_screenshot_as_base64', 'get_screenshot_as_file',
-             'get_screenshot_as_png', 'get_settings',
-             'get_system_bars', 'get_window_position',
-             'get_window_rect', 'get_window_size',
-             'hide_keyboard', 'implicitly_wait',
-             'install_app', 'is_app_installed',
-             'is_ime_active', 'is_keyboard_shown',
-             'is_locked', 'keyevent', 'launch_app',
-             'location', 'lock', 'log_event', 'log_types',
-             'long_press_keycode', 'make_gsm_call',
-             'match_images_features', 'maximize_window',
-             'minimize_window', 'mobile', 'name',
-             'network_connection', 'open_notifications',
-             'orientation', 'page_source', 'press_button',
-             'press_keycode', 'pull_file', 'pull_folder',
-             'push_file', 'query_app_state', 'quit',
-             'refresh', 'remove_app', 'reset',
-             'save_screenshot', 'scroll', 'send_sms',
-             'session', 'session_id', 'set_clipboard',
-             'set_clipboard_text', 'set_gsm_signal',
-             'set_gsm_voice', 'set_location', 'set_network_connection',
-             'set_network_speed', 'set_page_load_timeout',
-             'set_power_ac', 'set_power_capacity', 'set_script_timeout',
-             'set_value', 'set_window_position', 'set_window_rect',
-             'set_window_size', 'shake', 'start_activity', 'start_client',
-             'start_recording_screen', 'start_session', 'stop_client',
-             'stop_recording_screen', 'swipe', 'switch_to', 'switch_to_active_element',
-             'switch_to_alert', 'switch_to_default_content', 'switch_to_frame', 'switch_to_window',
-             'tap', 'terminate_app', 'title', 'toggle_location_services', 'toggle_touch_id_enrollment', 'toggle_wifi',
-             'touch_id', 'unlock', 'update_settings', 'w3c', 'wait_activity', 'window_handles']
+        app = ['activate_app',
+               'activate_ime_engine',
+               'active_ime_engine',
+               'add_cookie',
+               'all_sessions',
+               'app_strings',
+               'application_cache',
+               'available_ime_engines',
+               'back',
+               'background_app',
+               'battery_info',
+               'capabilities',
+               'close',
+               'close_app',
+               'command_executor',
+               'context',
+               'contexts',
+               'create_web_element',
+               'current_activity',
+               'current_context',
+               'current_package',
+               'current_url',
+               'current_window_handle',
+               'deactivate_ime_engine',
+               'delete_all_cookies',
+               'delete_cookie', 'desired_capabilities',
+               'device_time', 'drag_and_drop',
+               'end_test_coverage', 'error_handler',
+               'events', 'execute',
+               'execute_async_script', 'execute_driver',
+               'execute_script', 'file_detector',
+               'file_detector_context',
+               'find_element',
+               'find_element_by_accessibility_id',
+               'find_element_by_android_data_matcher',
+               'find_element_by_android_uiautomator',
+               'find_element_by_android_view_matcher',
+               'find_element_by_android_viewtag',
+               'find_element_by_class_name',
+               'find_element_by_css_selector',
+               'find_element_by_custom',
+               'find_element_by_id',
+               'find_element_by_image',
+               'find_element_by_ios_class_chain',
+               'find_element_by_ios_predicate',
+               'find_element_by_ios_uiautomation',
+               'find_element_by_link_text',
+               'find_element_by_name',
+               'find_element_by_partial_link_text',
+               'find_element_by_tag_name',
+               'find_element_by_windows_uiautomation',
+               'find_element_by_xpath',
+               'find_elements',
+               'find_elements_by_accessibility_id',
+               'find_elements_by_android_data_matcher',
+               'find_elements_by_android_uiautomator',
+               'find_elements_by_android_viewtag',
+               'find_elements_by_class_name',
+               'find_elements_by_css_selector',
+               'find_elements_by_custom',
+               'find_elements_by_id',
+               'find_elements_by_image',
+               'find_elements_by_ios_class_chain',
+               'find_elements_by_ios_predicate',
+               'find_elements_by_ios_uiautomation',
+               'find_elements_by_link_text',
+               'find_elements_by_name',
+               'find_elements_by_partial_link_text',
+               'find_elements_by_tag_name',
+               'find_elements_by_windows_uiautomation',
+               'find_elements_by_xpath',
+               'find_image_occurrence',
+               'finger_print', 'flick',
+               'forward', 'fullscreen_window',
+               'get', 'get_clipboard',
+               'get_clipboard_text', 'get_cookie',
+               'get_cookies', 'get_device_time',
+               'get_display_density', 'get_events',
+               'get_images_similarity', 'get_log',
+               'get_performance_data', 'get_performance_data_types',
+               'get_screenshot_as_base64', 'get_screenshot_as_file',
+               'get_screenshot_as_png', 'get_settings',
+               'get_system_bars', 'get_window_position',
+               'get_window_rect', 'get_window_size',
+               'hide_keyboard', 'implicitly_wait',
+               'install_app', 'is_app_installed',
+               'is_ime_active', 'is_keyboard_shown',
+               'is_locked', 'keyevent', 'launch_app',
+               'location', 'lock', 'log_event', 'log_types',
+               'long_press_keycode', 'make_gsm_call',
+               'match_images_features', 'maximize_window',
+               'minimize_window', 'mobile', 'name',
+               'network_connection', 'open_notifications',
+               'orientation', 'page_source', 'press_button',
+               'press_keycode', 'pull_file', 'pull_folder',
+               'push_file', 'query_app_state', 'quit',
+               'refresh', 'remove_app', 'reset',
+               'save_screenshot', 'scroll', 'send_sms',
+               'session', 'session_id', 'set_clipboard',
+               'set_clipboard_text', 'set_gsm_signal',
+               'set_gsm_voice', 'set_location', 'set_network_connection',
+               'set_network_speed', 'set_page_load_timeout',
+               'set_power_ac', 'set_power_capacity', 'set_script_timeout',
+               'set_value', 'set_window_position', 'set_window_rect',
+               'set_window_size', 'shake', 'start_activity', 'start_client',
+               'start_recording_screen', 'start_session', 'stop_client',
+               'stop_recording_screen', 'swipe', 'switch_to', 'switch_to_active_element',
+               'switch_to_alert', 'switch_to_default_content', 'switch_to_frame', 'switch_to_window',
+               'tap', 'terminate_app', 'title', 'toggle_location_services', 'toggle_touch_id_enrollment', 'toggle_wifi',
+               'touch_id', 'unlock', 'update_settings', 'w3c', 'wait_activity', 'window_handles']
+
+    def test1(self):
+        time.sleep(9)
+        self.driver.tap([(559, 539)])
+        time.sleep(2)
+
+        con = self.driver.contexts
+        print(con)
+        print(dir(self.driver))
+        self.driver.execute(MobileCommand.SWITCH_TO_CONTEXT, {'name': '{}'.format(con[1])})
+        print(self.driver.current_context)
+        print(self.driver.page_source)
+        self.driver.execute(MobileCommand.SWITCH_TO_CONTEXT, {'name': '{}'.format(con[0])})
+        print(self.driver.current_context)
 
 
 if __name__ == '__main__':
     driver = appium_desired()
     com = Common(driver)
-    com.test()
+    com.test1()
 # com.check_allowLocaBtn()
 # com.check_allowAddressBtn()
 #  com.check_nextBtn()

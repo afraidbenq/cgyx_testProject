@@ -1,5 +1,11 @@
 """
-1.获取apk package 和 activity
+1.appium 环境搭建
+
+https://www.jianshu.com/p/107b5303622d
+
+
+
+2.获取apk package 和 activity
 
 aapt dump badging C:\Users\admin\Desktop\安卓apk\life_v1.0.18_2020-10-31_18_preview6.apk
 appname: life_v1.0.18_2020-10-31_18_preview6.apk
@@ -7,10 +13,10 @@ appPackage: com.fanda.chungoulife
 appActivity: com.ddz.component.welcome.WelcomeActivity
 
 
-2.无线连接安卓设备进行appium自动化
+3.无线连接安卓设备进行appium自动化
 
 有线连上手机
-adb devices -l
+adb chromedriver -l
 开启无线连接端口（默认5555）
 adb tcpip 5555
 获取手机IP地址(手机和电脑要在同一个WiFi环境)
